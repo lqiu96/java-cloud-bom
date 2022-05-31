@@ -7,7 +7,7 @@ name: ci
 jobs:
   full-dependencies-convergence:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'googleapis' && github.head_ref == 'release-please--branches--main'
+    if: github.repository_owner == 'googleapis'
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-java@v1
